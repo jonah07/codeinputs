@@ -80,7 +80,6 @@ function codeinputs(config) {
                     }
                 }
             } else if(e.key == "Backspace") {
-                console.log("2")
                 e.target.value = "";
                 if(element_index != 1) {
                     document.getElementById(window.ci_unique + "-" + (element_index - 1)).focus();
