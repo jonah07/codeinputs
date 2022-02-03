@@ -16,7 +16,7 @@ function createInputElement(id, config) {
     return element;
 }
 
-let codeinputs = (config) => {
+function codeinputs(config) {
     let elementId = (config.element ? config.element : "codeinputs");
     let element = document.getElementById(elementId);
     if(!element) {
