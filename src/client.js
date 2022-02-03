@@ -35,7 +35,6 @@ let codeinputs = (config) => {
         }
     }
     inputElements.forEach((el) => {
-        let i = 1;
         el.addEventListener("keydown", (e) => {
             let element_index = parseInt(e.target.id.replace(window.ci_unique + "-", ""));
             // is it a number?
@@ -72,6 +71,5 @@ let codeinputs = (config) => {
             }
             e.preventDefault();
         });
-        i++;
     });
 }
