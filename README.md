@@ -10,6 +10,8 @@ With CodeInputs, you can create nice-looking code inputs with ease. CodeInputs a
 
 **Feel free to contribute to this repository! 🪴**
 
+🐛 **Please create an issue if you found a bug:** [Create new issue](https://github.com/jonah07/codeinputs/issues/new)
+
 ## Getting started
 
 To get started, paste this snippet in your HTML:
