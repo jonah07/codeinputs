@@ -17,6 +17,11 @@ With CodeInputs, you can create nice-looking code inputs with ease. CodeInputs a
 To get started, paste this snippet in your HTML:
 
 ```html
+<script defer src="https://cdn.jsdelivr.net/gh/jonah07/codeinputs@latest/minified/client.js"></script>
+```
+
+Or to include the latest development version, use:
+```html
 <script defer src="https://cdn.jsdelivr.net/gh/jonah07/codeinputs@master/minified/client.js"></script>
 ```
 
@@ -77,7 +82,7 @@ Styling:
 The default theme can be included using this link tag:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jonah07/codeinputs@master/minified/default.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jonah07/codeinputs@latest/minified/default.css">
 ```
 
 It's really basic and only sets the border and font color. Currently, there are no other themes. But if you want to, you can create your own theme and upload it to this repository (would be awesome!).
