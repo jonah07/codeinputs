@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/client.css">
     <title>Demo</title>
 </head>
 <body>
@@ -11,11 +12,23 @@
         <h1>CodeInputs Demo</h1>
         <p>Isn't that nice?</p>
         <div id="codeinputs"></div>
+        <div id="success"></div>
     </div>
 
     <script src="../src/client.js"></script>
     <script>
-        codeinputs.
+        codeinputs({element:"codeinputs", callback: (code) => {
+            document.getElementById("success").innerHTML = "Thanks for entering a code! It is: " + code;
+        }});
     </script>
+    <style>
+        body {
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        h1 {
+            font-size: 3rem;
+        }
+    </style>
 </body>
 </html>
