@@ -45,7 +45,6 @@ function codeinputs(config) {
         return;
     }
     let length = (config.length ? config.length : 6);
-    console.log(config)
     let inputElements = [];
     for (let i = 1; i < (length + 1); i++) {
         let created = createInputElement(window.ci_unique + "-" + i, config);
